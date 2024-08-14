@@ -5,5 +5,5 @@ jobs:
     first-workflow:
         runs-on: ubuntu-latest
         steps:
-            - name: Error Message
-              run: echo "::error:: Error message"
+          - name: Error Message
+            run: echo "::error::Error Message"
