@@ -17,6 +17,9 @@ jobs:
                 echo $GITHUB_WORKSPACE
     working-dir-in-windows:
         runs-on: windows-latest
+        defaults:
+          run:
+            shell: pwsh
         steps:
             - name: Windows Directories
               run: |
