@@ -7,3 +7,8 @@ jobs:
         steps:
           - name: Error Message
             run: echo "::notice::Warning Message"
+          - name: Group message
+            run: echo "::group::Group Title"
+                echo "Inside Group 1"
+                echo "Inside Group 2"
+                 echo "::endgroup"
