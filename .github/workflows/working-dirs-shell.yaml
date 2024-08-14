@@ -1,0 +1,25 @@
+name: Working directories
+on: [push]
+
+jobs:
+    working-dir-in-linux:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Linux Directories
+              run: |
+                pwd
+                ls -a
+                echo $GITHUB_SHA
+                echo $GITHUB_REPOSITORY
+                echo $GITHUB_WORKSPACE
+    working-dir-in-windows:
+        runs-on: windows-latest
+        steps:
+            - name: Windows Directories
+              run: |
+                Get-Location
+                dir
+                echo $env:GITHUB_SHA
+                echo $env:GITHUB_REPOSITORY
+                echo $env:GITHUB_WORKSPACE
+
