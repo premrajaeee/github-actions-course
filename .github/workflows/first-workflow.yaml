@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: Error Message
-            run: echo "::warning::Warning Message"
+            run: echo "::notice::Warning Message"
