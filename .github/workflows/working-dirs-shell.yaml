@@ -1,5 +1,8 @@
 name: Working directories
 on: [push]
+defaults:
+  run:
+    shell: bash
 
 jobs:
     working-dir-in-linux:
@@ -17,7 +20,9 @@ jobs:
         steps:
             - name: Windows Directories
               run: |
+                echo "Location"
                 Get-Location
+                echo "List files"
                 dir
                 echo $env:GITHUB_SHA
                 echo $env:GITHUB_REPOSITORY
