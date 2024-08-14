@@ -16,4 +16,6 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: list dir
-              run: dir
+              run: |
+                New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
+                dir
