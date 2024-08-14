@@ -11,3 +11,9 @@ jobs:
               run: |
                 npm -v
                 node -v
+
+    second-workflow:
+        runs-on: windows-latest
+        steps:
+            - name: list dir
+              run: dir
