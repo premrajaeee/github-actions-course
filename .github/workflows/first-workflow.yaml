@@ -5,17 +5,5 @@ jobs:
     first-workflow:
         runs-on: ubuntu-latest
         steps:
-            - name: echo a string
-              run: echo "Hello World"
-            - name: Test version
-              run: |
-                npm -v
-                node -v
-
-    second-workflow:
-        runs-on: windows-latest
-        needs: first-workflow
-        steps:
-            - name: list dir
-              run: |
-                New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string test."
+            - name: Error Message
+              run: echo "::error:: Error message"
