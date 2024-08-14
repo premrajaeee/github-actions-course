@@ -11,4 +11,4 @@ jobs:
             run: echo "::group::Group Title"
                 echo "Inside Group 1"
                 echo "Inside Group 2"
-                 echo "::endgroup"
+                 echo "::endgroup::"
