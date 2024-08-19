@@ -11,16 +11,16 @@ jobs:
         uses: actions/checkout@v4.1.7
       - name: List After
         run: ls -a
-  Checkout:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout before files
-        run: ls -a
-      - name: Git Checkout
-        run: |
-          git init
-          git remote add origin "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git"
-          git fetch origin
-          git checkout main
-      - name: Checkout after files
-        run: ls -a
+  # Checkout:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout before files
+  #       run: ls -a
+  #     - name: Git Checkout
+  #       run: |
+  #         git init
+  #         git remote add origin "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git"
+  #         git fetch origin
+  #         git checkout main
+  #     - name: Checkout after files
+  #       run: ls -a
