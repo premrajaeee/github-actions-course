@@ -1,0 +1,11 @@
+name: Event that trigger
+on: [push]
+
+jobs:
+  checkout-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Job on Event
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REF

@@ -6,13 +6,7 @@ jobs:
   Checkout-with-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: List Before
-        run: ls -a
-      - name: Checkout stage
-        uses: actions/checkout@v4.1.7
-      - name: List After
-        run: ls -a
-  # Checkout:
+      - name: 
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: Checkout before files
