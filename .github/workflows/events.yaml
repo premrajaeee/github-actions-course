@@ -1,5 +1,5 @@
 name: Event that trigger
-on: [push]
+on: [push, pull_request, issues]
 
 jobs:
   checkout-test:
@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: First Job on Event
         run: |
+          echo "new branch"
           echo $GITHUB_SHA
           echo $GITHUB_REF
