@@ -9,6 +9,9 @@ jobs:
         run: echo "Hello World"
       - name: second-step
         run: | 
+          echo "Node Version"
           node -v
+          echo "NPM Version"
           npm -v
+          echo "Python Version"
           python -v
