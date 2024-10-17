@@ -14,4 +14,4 @@ jobs:
           echo "NPM Version"
           npm -v
           echo "Python Version"
-          python -v
+          python -V
