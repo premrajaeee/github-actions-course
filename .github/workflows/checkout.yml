@@ -13,4 +13,9 @@ jobs:
           git fetch origin
           git checkout new-branch
       - name: List After
-        run: ls -a
+        run: |
+          ls -a
+          cd .github
+          ls -a
+          cd workflows
+          ls -a
