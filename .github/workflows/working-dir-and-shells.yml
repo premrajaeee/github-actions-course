@@ -21,3 +21,8 @@ jobs:
                 echo "$env:GITHUB_SHA"
                 echo "$env:GITHUB_REPOSITORY"
                 echo "$env:GITHUB_WORKSPACE"
+            - name: Python test
+              shell: python
+              run: |
+                import platform
+                print(platform.processor())
