@@ -10,4 +10,4 @@ jobs:
         with:
           who-to-greet: Prem
       - name: Output
-        run: echo "${{ steps.greet }}"
+        run: echo "${{ steps.greet.outputs.time }}"
