@@ -1,5 +1,11 @@
 name: events
-on: [push, pull_request, issues]
+on: 
+    push:
+    pull_request: 
+        types: [closed]
+    issues: 
+        types: [closed]
+
 
 jobs:
   checkout:
