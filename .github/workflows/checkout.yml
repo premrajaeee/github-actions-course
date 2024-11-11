@@ -1,0 +1,17 @@
+name: Git Checkout
+on: [push]
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List before
+        run: ls -a
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: List After
+        run: |
+          ls -a
+          cd .github
+          ls -a
+          cd workflows
+          ls -a
