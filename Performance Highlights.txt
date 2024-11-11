@@ -1,0 +1,25 @@
+Performance Highlights
+
+18.10.2023 - KT Session for new KT folks about Cloud SQL provisioning and Cloud SQL Auth Proxy
+
+
+I hope this message finds you well. I would like to express my gratitude for considering my request for a salary increase. I truly appreciate your willingness to recognize my contributions and efforts.
+
+To ensure that we are both on the same page and to have a formal record of our agreement, I kindly request a written confirmation of the details we discussed regarding my salary increase. This would include the agreed-upon new salary, effective date, and any other pertinent terms or conditions.
+
+Your support means a lot to me, and I look forward to continuing to contribute to the success of the team and the company.
+
+Thank you for your understanding, and please let me know if there are any specific steps or information you require from my end to facilitate this process.
+
+
+
+Helicopter Racing League Testlet 1
+Company overview
+QUESTION 6
+For this question, refer to the Helicopter Racing League (HRL) case study. A recent finance audit of cloud infrastructure noted an exceptionally high number of Compute Engine instances are allocated to do video encoding and transcoding. You suspect that these Virtual Machines are zombie machines that were not deleted after their workloads completed. You need to quickly get a list of which VM instances are idle. What should you do?
+A. Log into each Compute Engine instance and collect disk, CPU, memory, and network usage statistics for analysis.
+B. Use the gcloud compute instances list to list the virtual machine instances that have the idle: true label set.
+C. Use the gcloud recommender command to list the idle virtual machine instances.
+D. From the Google Console, identify which Compute Engine instances in the managed instance groups are no longer responding to health check probes.
+
+I would like to express my gratitude for the opportunities I've had during my time at HCL Tech. It's been a valuable experience, and I've had the chance to work with some wonderful colleagues. However, after careful consideration, I have decided to resign due to a salary misalignment. I believe this decision is in the best interest of my career goals and financial well-being. Thank you for the support and experiences I've gained during my time here.
